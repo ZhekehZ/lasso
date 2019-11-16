@@ -16,10 +16,6 @@ void dataFrame::read_from_csv(std::istream &istr, size_t y_pos) {
             std::cout << line;
         }
         // ignore colnames
-//        std::istringstream sstream(line);
-//        while (sstream.getline(name, 256, ',')) {
-//
-//        }
     }
 
     while (getline(istr, line)) {
